@@ -1,0 +1,90 @@
+.ui-datepicker {
+    // extend the bootstrap dropdown-menu
+    //&:extend(.dropdown-menu);
+    @extend .dropdown-menu;
+    @include rem(padding, 10px);
+    @include rem(width, 234px);
+
+    .ui-datepicker-title {
+        font-weight: 600;
+        position: relative;
+        @include rem(top, 1px);
+    }
+
+    .ui-datepicker-header {
+        @include rem(margin-bottom, 7px);
+    }
+
+    thead th {
+        // mute the days-of-the-week headers
+        color: #999;
+        text-align: center;
+    }
+
+    td {
+        .ui-state-hover {
+            background-color: $dropdown-link-hover-bg;
+        }
+
+        .ui-state-active {
+            color: $component-active-color;
+            background-color: $component-active-bg;
+            @include rem(border-radius, 2px);
+        }
+
+        a, span {
+            @include rem(border-radius, 3.9px);
+            text-align: center;
+            color: $text-color;
+            font-size: $font-size-base;
+        }
+
+
+        span {
+            color: $gray-45;
+        }
+    }
+
+    /* icons */
+
+    .ui-datepicker-prev, .ui-datepicker-next {
+        cursor: pointer;
+
+        .ui-icon {
+            @extend .icon;
+            overflow: visible;
+            margin-left: 0;
+            @include rem(margin-top, -12px);
+
+            &:after {
+                @include rem(margin-left, -4px);
+                text-indent: 0;
+                position: absolute;
+                left: 0;
+            }
+        }
+    }
+
+    .ui-datepicker-next {
+        .ui-icon {
+            @extend .icon-angle-right;
+        }
+    }
+
+    .ui-datepicker-prev {
+        .ui-icon {
+            @extend .icon-angle-left;
+        }
+    }
+
+    .ui-datepicker-prev-hover, .ui-datepicker-prev, .ui-datepicker-next-hover, .ui-datepicker-next {
+        @include rem(top, 7px);
+        @include rem(left, 2px);
+    }
+
+
+    button.ui-state-default {
+        @extend .btn;
+        @extend .btn-default;
+    }
+}

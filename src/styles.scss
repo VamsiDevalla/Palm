@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+//$bootstrap-path: "./node_modules/bootstrap-sass/assets/stylesheets";
+$images-path : "assets/images/" !default;
+// Core variables and mixins
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins";
+@import "assets/sass/partials/mixins/_dpl-mixins";
+// include DPL mixins and DPL variables;
+// Reset and dependencies
+@import "assets/sass/partials/_normalize";
+@import "./node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_print";
+@import "assets/sass/partials/_icons";
+
+// Core Cassets/sass/SS
+@import "assets/sass/partials/_scaffolding";
+@import "assets/sass/partials/_type";
+@import "assets/sass/partials/_code";
+@import "assets/sass/partials/_grid";
+@import "assets/sass/partials/_tables";
+@import "assets/sass/partials/_forms";
+@import "assets/sass/partials/_buttons";
+
+// Components
+@import "assets/sass/partials/_component-animations";
+@import "assets/sass/partials/_dropdowns";
+@import "assets/sass/partials/_button-groups";
+@import "assets/sass/partials/_input-groups";
+@import "assets/sass/partials/_navs";
+@import "assets/sass/partials/_navbar";
+@import "assets/sass/partials/_breadcrumbs";
+@import "assets/sass/partials/_pagination";
+@import "assets/sass/partials/_pager";
+@import "assets/sass/partials/_labels";
+@import "assets/sass/partials/_badges";
+@import "assets/sass/partials/_jumbotron";
+@import "assets/sass/partials/_thumbnails";
+@import "assets/sass/partials/_alerts";
+@import "assets/sass/partials/_progress-bars";
+@import "assets/sass/partials/_media";
+@import "assets/sass/partials/_list-group";
+@import "assets/sass/partials/_panels";
+@import "assets/sass/partials/_responsive-embed";
+@import "assets/sass/partials/_wells";
+@import "assets/sass/partials/_close";
+
+// Bootstrap 4 backports
+@import "assets/sass/partials/_cards";
+
+// Components w/ JavaScript
+@import "assets/sass/partials/_modals";
+@import "assets/sass/partials/_tooltip";
+@import "assets/sass/partials/_popovers";
+@import "assets/sass/partials/_carousel";
+
+// Custom 3rd party lib styles
+@import "assets/sass/vendor/_datepicker";
+@import "assets/sass/vendor/_nouislider";
+@import "assets/sass/vendor/_nouislider";
+@import "assets/sass/vendor/_timepicker";
+
+// Custom components
+@import "assets/sass/custom/_filters";
+@import "assets/sass/custom/_sliders";
+@import "assets/sass/custom/_load-spinners";
+@import "assets/sass/custom/_accordions";
+@import "assets/sass/custom/_tags";
+@import "assets/sass/custom/_close";
+
+// Utility classes
+@import "assets/sass/partials/_utilities";
+@import "assets/sass/partials/_responsive-utilities";
+
+// Custom flair
+@import "assets/sass/partials/_flair"; // @import flair styling file
+
