@@ -1,0 +1,56 @@
+.ex-sub-header {
+    background: #282930;
+    height: 38px;
+    top: 34px;
+    left: 0px;
+    right: 0;
+    position: absolute;
+    padding-left: 4px;
+    color: #fff;
+    padding-right: 4px;
+}
+
+.ex-sub-header--gadgets {
+    float: left;
+}
+
+.ex-sub-header--gadgets .ex-btn__inverse__active {
+    background: rgba(255,255,255,0.05);
+}
+.ex-sub-header--gadgets .btn {
+    width: 34px;
+}
+.ex-sub-header .btn {
+    border-radius: 2px;
+    margin: 4px 1px;
+    padding: 6px;
+}
+
+.search {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .search {
+        background-color: transparent;
+        display: block;
+        float: right;
+        padding: 0;
+        position: static;
+        text-align: right;
+        width: auto;
+    }
+}
+
+
+.ex-form-control__inverse, .ex-form-control__inverse:focus {
+    border: none;
+    background: rgba(0,0,0,0.5);
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    padding: 5px 12px;
+    padding-right: 28px;
+    vertical-align: middle;
+    color: #fff;
+}
