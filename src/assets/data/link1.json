@@ -1,0 +1,50 @@
+
+
+{
+    "applicationNumberText": "13335564         ",
+    "inventionTitle": "SYSTEM AND METHOD FOR TREATING HEART TISSUE",
+    "status": "150/Patented Case",
+    "applicationStatusDescriptionText": "Patented Case",
+    "firstInventorToFileIndicator": "N",
+    "applicationStatusDate": "2012-04-25",
+    "usClassification": "600.016000",
+    "businessEntityStatusCategory": "SMALL",
+    "workflowCategoryTypeCode": "Disposal",
+    "partyIdentifier": "78464",
+    "applicationConfirmationNumber": "2816",
+    
+    "filingDate": "2011-12-22",
+    "publicationNumber": null,
+    "publicationDate": "1969-12-31",
+    "applicantNames": null,
+    "patentNumber": null,
+    "inventorNames": [
+        "Werner.Mohl",
+        "Gregor.Neumayr",
+        "Alem.Jusic",
+        "Test.Test"
+    ],
+    "attorneyDocketNumber": null,
+    "applicationWithdrawnDate": null,
+    "effectiveFilingDate": "2011-12-22",
+    "subclass": "016000",
+    "secrecyCode": "1",
+    "unmatchedPetitionIndicator": "N",
+    "grantDate": "2012-05-15",
+    "nameLineOneText": "FISH & RICHARDSON P.C. (TC)",
+    "foreignPriorityClaimed": "NO",
+    "cpcList": null,
+    "ipcList": [
+        "A61M 1/12"
+    ],
+    "appealNumberText": null,
+    "lostCaseIndicator": "NO",
+    "foamDate": null,
+    "messageDesc": null,
+    "examinerName": "FRANCES OROPEZA",
+    "examinerNumber": 117312,
+    "gau": "3766",
+    "speList": [
+        "CHRISTOPHER/KOHARSKI"
+    ]
+}

@@ -1,0 +1,43 @@
+https://opsg-ui.sit.uspto.gov/OPSGWebServices/application-interested-parties/assignees?applicationNumber=13335564
+
+{
+    "meta": {
+        "applicationNumberText": "13335564"
+    },
+    "results": [
+        {
+            "lifeCycle": {
+                "beginDate": 1324594680
+            },
+            "audit": {
+                "lastModifiedUser": "kthai",
+                "lastModifiedTime": 1325855117
+            },
+            "interestedParty": {
+                "status": "F",
+                "referenceType": "AS",
+                "sequenceNumber": 0,
+                "partyIdentifier": "47922613",
+                "interestedPartyType": "ORG"
+            },
+            "organizations": {
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "MIRACOR MEDICAL SYSTEMS GMBH",
+                            "addressLineOneText": "Gumpendorferstrasse 139 Top 1.05",
+                            "cityName": "Vienna",
+                            "countryCode": "AT",
+                            "countryName": "AUSTRIA",
+                            "postalCode": "A-1060"
+                        }
+                    ],
+                    "telecommunication": [],
+                    "emails": []
+                },
+                "organizationStandardName": "MIRACOR MEDICAL SYSTEMS GMBH",
+                "identifier": "47922613"
+            }
+        }
+    ]
+}

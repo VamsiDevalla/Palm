@@ -1,0 +1,295 @@
+
+https://opsg-ui.sit.uspto.gov/OPSGWebServices/application-interested-parties/attorneys?applicationNumber=14000178
+
+
+{
+    "lifeCycle": {
+        "beginDate": 1376696784
+    },
+    "applicationIdentifier": {
+        "applicationNumberText": "14000178"
+    },
+    "audit": {
+        "lastModifiedUser": "efswuser            ",
+        "lastModifiedTime": 1376696784
+    },
+    "customerNumber": {
+        "organizations": {
+            "address": {
+                "physicalAddress": [
+                    {
+                        "nameLineOneText": "HAYNES BEFFEL & WOLFELD LLP",
+                        "nameLineTwoText": "",
+                        "addressLineOneText": "P O BOX 366",
+                        "addressLineTwoText": "",
+                        "cityName": "HALF MOON BAY",
+                        "geographicRegionCode": "CA",
+                        "geographicRegionName": "CALIFORNIA",
+                        "countryCode": "US",
+                        "countryName": "UNITED STATES",
+                        "postalCode": "94019"
+                    }
+                ],
+                "telecommunication": [],
+                "emails": []
+            }
+        },
+        "patronIdentifier": "22470"
+    },
+    "attorneys": [
+        {
+            "persons": {
+                "namePrefix": "",
+                "firstName": "JAMES",
+                "middleName": "",
+                "lastName": "HANN",
+                "nameSuffix": "",
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "",
+                            "nameLineTwoText": "",
+                            "addressLineOneText": "P O BOX 3639",
+                            "addressLineTwoText": "",
+                            "cityName": "HALF MOON BAY",
+                            "geographicRegionCode": "CA",
+                            "geographicRegionName": "CALIFORNIA",
+                            "countryCode": "US",
+                            "countryName": "UNITED STATES",
+                            "postalCode": "94019"
+                        }
+                    ],
+                    "telecommunication": [
+                        {
+                            "telecommunicationNumber": "650-867-8471",
+                            "extensionNumber": "",
+                            "usageTypeCategory": "TEL"
+                        }
+                    ],
+                    "emails": []
+                }
+            },
+            "registrationStatus": "ACTIVE",
+            "registrationNumber": "29719",
+            "registeredPractitionerTyCd": "ATTNY"
+        },
+        {
+            "persons": {
+                "namePrefix": "",
+                "firstName": "MARK",
+                "middleName": "",
+                "lastName": "HAYNES",
+                "nameSuffix": "",
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "HAYNES BEFFEL & WOLFELD LLP",
+                            "nameLineTwoText": "",
+                            "addressLineOneText": "P O BOX 366",
+                            "addressLineTwoText": "637 MAIN STREET",
+                            "cityName": "HALF MOON BAY",
+                            "geographicRegionCode": "CA",
+                            "geographicRegionName": "CALIFORNIA",
+                            "countryCode": "US",
+                            "countryName": "UNITED STATES",
+                            "postalCode": "94019"
+                        }
+                    ],
+                    "telecommunication": [
+                        {
+                            "telecommunicationNumber": "650-712-0340",
+                            "extensionNumber": "",
+                            "usageTypeCategory": "TEL"
+                        }
+                    ],
+                    "emails": []
+                }
+            },
+            "registrationStatus": "ACTIVE",
+            "registrationNumber": "30846",
+            "registeredPractitionerTyCd": "ATTNY"
+        },
+        {
+            "persons": {
+                "namePrefix": "",
+                "firstName": "WARREN",
+                "middleName": "",
+                "lastName": "WOLFELD",
+                "nameSuffix": "",
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "HAYNES BEFFEL & WOLFELD LLP",
+                            "nameLineTwoText": "",
+                            "addressLineOneText": "P O BOX 366",
+                            "addressLineTwoText": "",
+                            "cityName": "HALF MOON BAY",
+                            "geographicRegionCode": "CA",
+                            "geographicRegionName": "CALIFORNIA",
+                            "countryCode": "US",
+                            "countryName": "UNITED STATES",
+                            "postalCode": "94019"
+                        }
+                    ],
+                    "telecommunication": [
+                        {
+                            "telecommunicationNumber": "650-712-0340",
+                            "extensionNumber": "",
+                            "usageTypeCategory": "TEL"
+                        }
+                    ],
+                    "emails": []
+                }
+            },
+            "registrationStatus": "ACTIVE",
+            "registrationNumber": "31454",
+            "registeredPractitionerTyCd": "ATTNY"
+        },
+        {
+            "persons": {
+                "namePrefix": "",
+                "firstName": "PAUL",
+                "middleName": "",
+                "lastName": "DURDIK",
+                "nameSuffix": "",
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "",
+                            "nameLineTwoText": "",
+                            "addressLineOneText": "807 PERSEUS LN",
+                            "addressLineTwoText": "",
+                            "cityName": "FOSTER CITY",
+                            "geographicRegionCode": "CA",
+                            "geographicRegionName": "CALIFORNIA",
+                            "countryCode": "US",
+                            "countryName": "UNITED STATES",
+                            "postalCode": "94404"
+                        }
+                    ],
+                    "telecommunication": [
+                        {
+                            "telecommunicationNumber": "650-722-1737",
+                            "extensionNumber": "",
+                            "usageTypeCategory": "TEL"
+                        }
+                    ],
+                    "emails": []
+                }
+            },
+            "registrationStatus": "ACTIVE",
+            "registrationNumber": "37819",
+            "registeredPractitionerTyCd": "ATTNY"
+        },
+        {
+            "persons": {
+                "namePrefix": "",
+                "firstName": "ERNEST",
+                "middleName": "",
+                "lastName": "BEFFEL",
+                "nameSuffix": "JR",
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "HAYNES BEFFEL & WOLFELD, LLP",
+                            "nameLineTwoText": "",
+                            "addressLineOneText": "P O BOX 366",
+                            "addressLineTwoText": "",
+                            "cityName": "HALF MOON BAY",
+                            "geographicRegionCode": "CA",
+                            "geographicRegionName": "CALIFORNIA",
+                            "countryCode": "US",
+                            "countryName": "UNITED STATES",
+                            "postalCode": "94019"
+                        }
+                    ],
+                    "telecommunication": [
+                        {
+                            "telecommunicationNumber": "650-712-0340",
+                            "extensionNumber": "",
+                            "usageTypeCategory": "TEL"
+                        }
+                    ],
+                    "emails": []
+                }
+            },
+            "registrationStatus": "ACTIVE",
+            "registrationNumber": "43489",
+            "registeredPractitionerTyCd": "ATTNY"
+        },
+        {
+            "persons": {
+                "namePrefix": "",
+                "firstName": "ANDREW",
+                "middleName": "",
+                "lastName": "DUNLAP",
+                "nameSuffix": "",
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "WENDEROTH, LIND & PONACK, L.L.P.",
+                            "nameLineTwoText": "",
+                            "addressLineOneText": "1030 15TH STREET, N.W.",
+                            "addressLineTwoText": "SUITE 400 EAST",
+                            "cityName": "WASHINGTON",
+                            "geographicRegionCode": "DC",
+                            "geographicRegionName": "DISTRICT OF COLUMBIA",
+                            "countryCode": "US",
+                            "countryName": "UNITED STATES",
+                            "postalCode": "20005"
+                        }
+                    ],
+                    "telecommunication": [
+                        {
+                            "telecommunicationNumber": "202-721-8200",
+                            "extensionNumber": "",
+                            "usageTypeCategory": "TEL"
+                        }
+                    ],
+                    "emails": []
+                }
+            },
+            "registrationStatus": "ACTIVE",
+            "registrationNumber": "60554",
+            "registeredPractitionerTyCd": "ATTNY"
+        },
+        {
+            "persons": {
+                "namePrefix": "",
+                "firstName": "YIDING",
+                "middleName": "",
+                "lastName": "WU",
+                "nameSuffix": "",
+                "address": {
+                    "physicalAddress": [
+                        {
+                            "nameLineOneText": "",
+                            "nameLineTwoText": "",
+                            "addressLineOneText": "16233 LILAC LANE",
+                            "addressLineTwoText": "",
+                            "cityName": "LOS GATOS",
+                            "geographicRegionCode": "CA",
+                            "geographicRegionName": "CALIFORNIA",
+                            "countryCode": "US",
+                            "countryName": "UNITED STATES",
+                            "postalCode": "95032"
+                        }
+                    ],
+                    "telecommunication": [
+                        {
+                            "telecommunicationNumber": "408-358-7774",
+                            "extensionNumber": "",
+                            "usageTypeCategory": "TEL"
+                        }
+                    ],
+                    "emails": []
+                }
+            },
+            "registrationStatus": "ACTIVE",
+            "registrationNumber": "65992",
+            "registeredPractitionerTyCd": "AGENT"
+        }
+    ]
+}
+
+
