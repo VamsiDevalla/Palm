@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PrimaryHeaderComponent } from './components/primary-header/primary-header.component';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { SecondaryHeaderComponent } from './components/secondary-header/secondary-header.component';
+import { ActionButtonsComponent } from './components/action-buttons/action-buttons.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimaryHeaderComponent,
     SideNavComponent,
-    SecondaryHeaderComponent
+    SecondaryHeaderComponent,
+    ActionButtonsComponent
   ],
   imports: [
     BrowserModule,

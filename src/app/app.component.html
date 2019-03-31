@@ -3,8 +3,8 @@
     <div class="left" [ngClass]="{'hide': sideMenuHidden}"> 
         <app-side-nav></app-side-nav>
     </div>
-    <div class="right">
+    <div class="right" [ngClass]="{'left-extended': !sideMenuHidden}">
         <app-secondary-header></app-secondary-header>
-        <p></p>
+        <app-action-buttons></app-action-buttons>
     </div>
 </div>
