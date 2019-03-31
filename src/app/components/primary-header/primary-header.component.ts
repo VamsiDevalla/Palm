@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-primary-header',
@@ -6,10 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./primary-header.component.scss']
 })
 export class PrimaryHeaderComponent implements OnInit {
-
+  menuHidden: boolean;
+  @Output()
+  menuToggled =  new EventEmitter<boolean>();
   constructor() { }
 
   ngOnInit() {
+    this.menuHidden = true;
+  }
+
+  toggleMenu() {
+    this.menuHidden = !this.menuHidden;
+    this.menuToggled.emit(this.menuHidden);
   }
 
 }

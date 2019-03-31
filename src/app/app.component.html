@@ -1,5 +1,10 @@
-<app-primary-header></app-primary-header>
-<app-secondary-header></app-secondary-header>
+<app-primary-header (menuToggled)="menuToggled()"></app-primary-header>
 <div class="ex-container">
-    <app-side-nav></app-side-nav>
+    <div class="left" [ngClass]="{'hide': sideMenuHidden}"> 
+        <app-side-nav></app-side-nav>
+    </div>
+    <div class="right">
+        <app-secondary-header></app-secondary-header>
+        <p></p>
+    </div>
 </div>

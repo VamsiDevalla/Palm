@@ -1,6 +1,7 @@
 <header class="ex-header clearfix">
   <div class="ex-header--menu pull-left">
-    <i class="icon icon-bars icon-inverse"></i>
+    <span class="ex-brand display1" [ngClass]="{'hide': menuHidden}"><strong>USPTO</strong> <span class="light">PALM</span></span>
+    <i class="icon icon-bars icon-inverse icon2x" (click)="toggleMenu()"></i>
   </div>
   <div class="ex-header--buttons clearfix">
     <div class="pull-left">
