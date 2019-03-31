@@ -1,0 +1,82 @@
+.ex-header {
+    width:1920px;
+    height: 50px;
+    color: #fff;
+    background: #004c97;
+}
+
+.ex-brand {
+height: 33px;
+padding-right: 58px;
+padding-left: 11px;
+color: #f5f5f5;
+text-align: center;
+}
+
+.ex-header--menu {
+    display: inline-block;
+    background: rgba(0,0,0,.1);
+    padding-top: 9px;
+    padding: 9px 10px 8px 3px;
+    // width: 36px;
+    height: 100%;
+    text-align: center;
+}
+.ex-header--buttons {
+    height: 100%;
+    button {
+        font-size: 16px;
+        height: 50px;
+    }
+}
+.icon-bars:after, .icon-navicon:after, .icon-reorder:after {
+    height: 16px;
+    margin-top: 3px;
+}
+
+.icon2x {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    display: inline-block;
+    margin: 0 10px;
+    // margin: 1rem;
+}
+
+.margin-right-1 {
+    margin-right: 9px;
+}
+
+.ex-header--icon-badge {
+    color: #fff;
+    background: #fb8300;
+    padding: 2px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-left: -6px;
+    margin-top: -6px;
+    border: 2px solid #004c97;
+    display: inline-block;
+    line-height: 11px;
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    position: relative;
+}
+
+.ex-btn__inverse {
+    background: none;
+    border: none;
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 8px;
+    vertical-align: middle;
+    border-radius: 0;
+    text-align: center;
+}
+
+.ex-btn__inverse.btn:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: #fff;
+}

@@ -1,0 +1,20 @@
+.actionBar {
+    position: relative;
+    height: 50px;
+    border-bottom: #cccccc 1px solid;
+    .bottom {
+        display: block;
+        font-weight: 400;
+    }
+}
+
+.actionBar-buttons {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    button {
+        font-weight: 500;
+        height: 40px;
+        margin: 5px;
+    }
+}

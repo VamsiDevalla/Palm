@@ -72,3 +72,10 @@ $images-path : "assets/images/" !default;
 // Custom flair
 @import "assets/sass/partials/_flair"; // @import flair styling file
 
+* {
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,26 @@
+// .left, .right{
+//     display: inline-block;
+//     height: 100%;
+// }
+
+.left {
+    display: inline-block;
+    width: 261px;
+    background-color: #080808;
+    height: 1912px;
+}
+
+.right {
+    display: inline-block;
+    width: 1920px;
+    height: 1912px;
+}
+
+.left-extended{
+    width: 1659px;
+}
+
+.ex-container {
+    display: flex;
+    width: 1920px;
+}
