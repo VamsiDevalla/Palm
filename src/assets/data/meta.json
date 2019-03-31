@@ -1,0 +1,125 @@
+{
+    about: {
+        "app num": {
+            "Filename": link 1, 
+            "property name ": applicationNumberText
+
+        }
+        Filing Date:{
+            "Filename": link 1,
+            "prop name" : FilingDate
+        }
+        Continuiy:{
+            Don;t Know
+        }
+        App Infor:{
+            {
+                "SPE:"
+                Filename": link 1, 
+            "property name ": Spelist
+            }
+          {
+              Conf numb
+              Filename": Link 1, 
+              "property name ": applicationConfirmationNumber
+
+        }
+        {
+            For prior claime
+            Filename": Link 1, 
+              "property name ": foreign priority claimed
+        }
+        {
+            applicants:
+            Filename": Link 1, 
+              "property name ": applicantnames
+    }
+    {
+        Public numb:
+        Filename": Link 1, 
+              "property name ": applicationConfirmationNumber
+    }
+    {
+        AIA
+        Filename": Link 1, 
+        "property name ": Firstinventortofile
+
+    }
+    {
+        Inve
+        Filename": Link 1, 
+              "property name ": Inventornames
+    }
+    {Patent numb
+        Filename": Link 1, 
+              "property name ": patent numb
+    }
+    {
+        entity
+        link 1
+        prop : business entity
+    }
+    {
+        law firm: don know
+    }
+    {
+        att dis: link 1
+    }
+    {
+        exam" link1
+    }
+    app dates
+    {
+
+Issue Date: link 2 , begin date
+
+Last RCE Date:
+
+Publication Date: link1, pub date
+
+Effective Date: link1, eff filling date 
+
+FAOM Date: link 1
+
+Filing Date: link 1
+
+Abandonment Date:
+
+Application Received Date:link 1, app status date
+}
+{
+    Addition Infor:[
+        
+        US Class: 
+
+L&R Secrecy Code:
+
+Secrecy Order:
+
+IDS Flag Clearance:
+
+Third Level Review:
+
+
+Appeal Number:
+
+Interference Number:
+
+Oral Hearing:
+
+Critical Petition:
+
+
+Waiting for Response Description:
+
+
+
+IPC:
+
+
+
+CPC: 
+
+
+    ]
+}
