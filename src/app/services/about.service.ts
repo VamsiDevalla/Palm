@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import aboutData from '../../assets/data/link1.json';
-import { Observable } from 'rxjs';
 import { of } from 'rxjs';
 
 @Injectable({

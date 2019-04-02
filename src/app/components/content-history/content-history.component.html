@@ -1,0 +1,66 @@
+<div class="application-meta">
+  <div class="col-md-3">
+    <dl class="dl-horizontal dl-inverse">
+      <dt>Application Number</dt>
+      <dd>{{about.applicationName}}</dd>
+      <dt>Filing Date</dt>
+      <dd>{{about.filingDate}}</dd>
+      <dt>Continuity/Foreign</dt>
+      <dd>{{about.continuityForeign}}</dd>
+    </dl>
+  </div>
+  <div class="col-md-6">
+    <dl class="dl-horizontal dl-inverse">
+      <dt>Title</dt>
+      <dd>{{about.title}}</dd>
+      <dt>Status</dt>
+      <dd>{{about.status}}</dd>
+    </dl>
+  </div>
+
+  <div class="col-md-3">
+    <dl class="dl-horizontal dl-inverse">
+      <dt>Examiner</dt>
+      <dd>{{about.Examiner}}</dd>
+      <dt>ID</dt>
+      <dd>{{about.ID}}</dd>
+      <dt>GAU</dt>
+      <dd>{{about.GAU}}</dd>
+      <dt>Docket Category</dt>
+      <dd>{{about.docketCategory}}</dd>
+    </dl>
+  </div>
+</div>
+
+<div>
+  <table aria-hidden="true" class="table" style="margin: 0;">
+
+  </table>
+  <div style="overflow: auto; max-height: 600px; ">
+    <table class="table table-striped " style="margin-bottom: 0;">
+      <!-- <thead style="border: none;height: 0; overflow: hidden;"> -->
+      <thead style="overflow: hidden;">
+        <tr>
+          <th>T</th>
+          <th>Recorded Date</th>
+          <th>Status</th>
+          <th>Code</th>
+          <th>Description</th>
+          <th>PALM Entry Date</th>
+          <th class="table-config-column"><button type="button" data-container="body" title="Show and hide columns"
+              data-toggle="tooltip"><i class="icon icon-ellipsis-h"></i></button></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of contentHistory">
+          <td> </td>
+          <td>{{ item.recordedDate | date}}</td>
+          <td>{{item.status}}</td>
+          <td>{{item.code}}</td>
+          <td>{{item.description}}</td>
+          <td>{{ item.palmEntryDate | date}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

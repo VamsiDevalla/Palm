@@ -9,6 +9,8 @@ import { SecondaryHeaderComponent } from './components/secondary-header/secondar
 import { ActionButtonsComponent } from './components/action-buttons/action-buttons.component';
 import { TabBarComponent } from './components/tab-bar/tab-bar.component';
 import { AboutComponent } from './components/about/about.component';
+import { ContentHistoryComponent } from './components/content-history/content-history.component';
+import { PetitionInformationComponent } from './components/petition-information/petition-information.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AboutComponent } from './components/about/about.component';
     SecondaryHeaderComponent,
     ActionButtonsComponent,
     TabBarComponent,
-    AboutComponent
+    AboutComponent,
+    ContentHistoryComponent,
+    PetitionInformationComponent
   ],
   imports: [
     BrowserModule,

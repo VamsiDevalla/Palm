@@ -1,16 +1,20 @@
 <app-primary-header (menuToggled)="menuToggled()"></app-primary-header>
 <div class="ex-container">
-    <div class="left" [ngClass]="{'hide': sideMenuHidden}"> 
-        <app-side-nav></app-side-nav>
-    </div>
-    <div class="right" [ngClass]="{'left-extended': !sideMenuHidden}">
-        <app-secondary-header></app-secondary-header>
-        <app-action-buttons></app-action-buttons>
-        <app-tab-bar></app-tab-bar>
-        <div class="tab">
-            <div class="activeTab">
-                <app-about></app-about>
-            </div>
+  <div class="left" [ngClass]="{'hide': sideMenuHidden}">
+    <app-side-nav></app-side-nav>
+  </div>
+  <div class="right" [ngClass]="{'left-extended': !sideMenuHidden}">
+    <app-secondary-header></app-secondary-header>
+    <app-action-buttons></app-action-buttons>
+    <div class="content">
+      <app-tab-bar (selectedTab)="setActiveTab($event)"></app-tab-bar>
+      <div class="tab">
+        <div class="activeTab" [ngSwitch]="activeTab">
+          <app-about *ngSwitchCase="'About'"></app-about>
+          <app-content-history *ngSwitchCase="'Content History'"></app-content-history>
+          <!-- <p *ngSwitchDefault></p> -->
         </div>
+      </div>
     </div>
+  </div>
 </div>

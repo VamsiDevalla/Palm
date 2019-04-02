@@ -10,15 +10,11 @@
     color: #080808;
 }
 
-.card{
-    margin-bottom: 0px;
-}
-.card-header {
-    height: 50px;
-    font-size: 20px;
-    color: #080808;
-}
-
-.card-block {
-    font-size: 14px;
+table {
+    font-size: 16px;
+    color: #555555;
+    border: 1px solid #cccccc;
+    th,td{
+        border: 1px solid #cccccc;
+    }
 }

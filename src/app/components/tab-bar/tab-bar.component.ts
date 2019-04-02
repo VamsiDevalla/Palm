@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-tab-bar',
@@ -7,6 +7,8 @@ import { Component, OnInit, EventEmitter } from '@angular/core';
 })
 export class TabBarComponent implements OnInit {
   activeTab: string;
+
+  @Output()
   selectedTab = new EventEmitter<string>();
   constructor() { }
 

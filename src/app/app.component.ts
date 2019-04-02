@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit{
   title = 'Palm';
   sideMenuHidden: boolean;
+  activeTab: string;
 
   ngOnInit() {
     this.sideMenuHidden = true;
@@ -15,5 +16,9 @@ export class AppComponent implements OnInit{
 
   menuToggled() {
     this.sideMenuHidden = !this.sideMenuHidden;
+  }
+
+  setActiveTab(tab: string) {
+    this.activeTab = tab;
   }
 }
