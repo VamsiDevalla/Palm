@@ -13,7 +13,7 @@ export class SecondaryHeaderComponent implements OnInit {
 
   ngOnInit() {
     this.dropDownExpanded = false;
-    this.searchCategory = 'Application Number'
+    this.searchCategory = 'Application Number';
   }
 
   dropDownToggle() {
