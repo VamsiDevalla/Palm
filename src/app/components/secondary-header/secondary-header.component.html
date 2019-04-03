@@ -14,6 +14,21 @@
       </a>
     </div>
     <form class="search" role="form">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" (click)="dropDownToggle()">
+              {{searchCategory}} <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" [ngClass]="{'show': dropDownExpanded}" role="menu">
+              <li (click)="selectedSearchCategory('Application Number')"><a>Application Number</a></li>
+              <li (click)="selectedSearchCategory('Patent Number')"><a>Patent Number</a></li>
+              <li (click)="selectedSearchCategory('Intl. Registration Number')"><a>Intl. Registration Number</a></li>
+              <li (click)="selectedSearchCategory('PCT')"><a>PCT</a></li>
+              <li (click)="selectedSearchCategory('PG Pubs Number')"><a>PG Pubs Number</a></li>
+              <li (click)="selectedSearchCategory('Attorney Docket Number')"><a>Attorney Docket Number</a></li>
+              <li (click)="selectedSearchCategory('Bar Code Numberr')"><a>Bar Code Numberr</a></li>
+              <!-- <li class="divider"></li> -->
+            </ul>
+          </div>
       <label for="txt-search" class="sr-only">Find application</label>
       <input id="txt-search" type="text" class="form-control ex-form-control__inverse" placeholder="Application Number">
       <a class="btn-search btn btn-default btn-sm" href="search-results.html"><i class="icon icon-search"></i><span

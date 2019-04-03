@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondaryHeaderComponent implements OnInit {
 
+  dropDownExpanded: boolean;
+  searchCategory: string;
   constructor() { }
 
   ngOnInit() {
+    this.dropDownExpanded = false;
+    this.searchCategory = 'Application Number'
+  }
+
+  dropDownToggle() {
+    this.dropDownExpanded = !this.dropDownExpanded;
+  }
+
+  selectedSearchCategory(category: string) {
+    this.searchCategory = category;
+    this.dropDownExpanded = false;
   }
 
 }
